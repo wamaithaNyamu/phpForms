@@ -1,0 +1,119 @@
+body{
+    background-image: url('dapper.jpg');
+   background-color: #100e17;
+    height: 100vh;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    z-index: -100;
+    font-family: 'Jaldi', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    height: 100vh;
+    font-size: 20px;
+    line-height: 2;
+   
+
+}
+h1{
+    text-align: center;
+}
+.blur{
+  
+    -webkit-filter: blur(5px); 
+    filter: blur(15px);
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.384);
+    
+    z-index: 1000;
+}
+
+.formwrapper{
+    width: 50%;
+    height: 100vh;
+    z-index: 100000;
+    margin: 0;
+    padding: 0;
+
+  
+
+  
+}
+
+.myForm{
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 2%;
+    position: fixed;
+    top: 8vh;
+    height: 60vh;
+    left: 5%;
+}
+input[type=text], textarea{
+    border: solid yellow 1px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px 20px;
+    width: 30vh;
+
+}
+
+.output{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+    color: #a1a1af;
+    
+  
+}
+.outputCard{
+    color:white;
+    flex: 1 0 40%;
+    margin: 10px;
+    background-color:  #201c29;
+    padding: 1%;
+    padding: 2rem;
+box-shadow: 0 0 5rem#100e17;
+border-radius: 1rem;
+}
+
+blockquote { 
+    color: #a1a1af;
+    border-left: solid yellow 1px;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 1em;
+    font-family: 'Caveat', cursive;
+  }
+  i{
+      color: yellow;
+  }
+  .submit{
+    border: solid yellow 1px;
+    padding: 10px;
+    width: 330px;
+    height: 60px;
+    font-size: 30px;
+    background-color: yellow;
+}
+.error {color: #FF0000;}
+
+#ideainvest{
+    font-family: 'Caveat', cursive;
+
+text-align: center;
+}
+.ideainvest , img{
+ width: 400px;
+ height: 400px;
+}

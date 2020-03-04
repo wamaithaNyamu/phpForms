@@ -1,0 +1,77 @@
+.signup{
+ 
+    width: 300px;
+    height: 100px;
+    color: #a1a1af;
+    position: fixed;
+    z-index: 10000;
+    top: 10vh;
+    left: 1vh;
+
+  
+
+}
+a{
+    text-decoration: none;
+    color: #a1a1af;
+
+}
+
+.output{
+   
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+    
+  
+}
+body{
+    background-color: #100e17;
+    line-height: 2;
+    font-size: 20px;
+
+}
+
+.wrapper{
+    display: flex;
+     align-content: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font: 30px;
+
+
+}
+.outputCard{
+    color:white;
+    flex: 1 0 25%;
+    margin: 10px;
+    background-color:  #201c29;
+    padding: 1%;
+    padding: 2rem;
+box-shadow: 0 0 5rem#100e17;
+border-radius: 1rem;
+}
+
+blockquote { 
+    color: #a1a1af;
+    border-left: solid yellow 1px;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 1em;
+    font-family: 'Caveat', cursive;
+  }
+  i{
+      color: yellow;
+  }
+  #invest{
+    color: #a1a1af;
+    font-family: 'Caveat', cursive;
+
+    text-align: center;
+    font-size: 30px;
+}
